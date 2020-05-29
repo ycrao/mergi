@@ -3,11 +3,11 @@ package mergi
 import (
 	"errors"
 	"image"
-	"image/draw"
 	"image/color"
+	"image/draw"
 )
 
-// Watermark uses go standard image.Image to get the watermark image and original image that want to watermark,
+// Watermark uses go standard image.Image to get the watermark image and imagine image that want to watermark,
 //
 // the position of the watermark has to provide in image.Point then it'll returns the watermarked image output
 //
@@ -18,7 +18,7 @@ func Watermark(watermark, original image.Image, p image.Point) (image.Image, err
 		return nil, errors.New(msg)
 	}
 	if original == nil {
-		msg := "Mergi found a error original image"
+		msg := "Mergi found a error imagine image"
 		return nil, errors.New(msg)
 	}
 	oBounds := original.Bounds()

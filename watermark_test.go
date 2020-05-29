@@ -1,12 +1,12 @@
 package mergi_test
 
 import (
-	"github.com/noelyahan/mergi"
 	"github.com/noelyahan/impexp"
+	"github.com/noelyahan/mergi"
 	"image"
 	"log"
-	"testing"
 	"strings"
+	"testing"
 )
 
 func TestWatermarkLogo(t *testing.T) {

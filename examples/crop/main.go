@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/noelyahan/mergi"
 	"github.com/noelyahan/impexp"
+	"github.com/noelyahan/mergi"
 	"image"
 	"log"
 )
@@ -15,6 +15,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Println(tigerLarge.Bounds())
 	rabbitLarge, err := mergi.Import(impexp.NewFileImporter("testdata/rabbit-1882699_960_720.jpg"))
 	if err != nil {
 		log.Fatal(err)

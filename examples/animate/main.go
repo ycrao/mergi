@@ -1,27 +1,27 @@
 package main
 
 import (
+	"github.com/noelyahan/impexp"
 	"github.com/noelyahan/mergi"
 	"image"
 	"image/gif"
 	"log"
-	"github.com/noelyahan/impexp"
 )
 
 // This example will guide how to animate any given images using mergi.Animate API
 // mergi.Animate only needs frames of go lang images and some delay to sleep
 func main() {
-	gifAnim := smoothMoveWithCrop()
-	mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/smooth.gif"))
+	//gifAnim := smoothMoveWithCrop()
+	//mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/smooth.gif"))
+	//
+	//gifAnim = simpleSlideChange()
+	//mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/slide.gif"))
 
-	gifAnim = simpleSlideChange()
-	mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/slide.gif"))
-
-	gifAnim = catFighterSpriteSheet()
+	gifAnim := catFighterSpriteSheet()
 	mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/sprite.gif"))
 
-	gifAnim = opecAnimation()
-	mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/opec.gif"))
+	//gifAnim = opecAnimation()
+	//mergi.Export(impexp.NewAnimationExporter(gifAnim, "examples/animate/res/opec.gif"))
 }
 
 func opecAnimation() gif.GIF {

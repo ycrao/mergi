@@ -11,9 +11,9 @@ var MaskBlack = color.RGBA{0, 0, 0, 0}
 
 // MaskWhite provides white masking
 var MaskWhite = color.RGBA{255, 255, 255, 0}
-// Mask uses go standard image.Image to get the masked image with original image,
+// Mask uses go standard image.Image to get the masked image with imagine image,
 //
-// Mask simply match the given color and matched with mask image and original to replace alpha values 0, 255
+// Mask simply match the given color and matched with mask image and imagine to replace alpha values 0, 255
 //
 // for more mask examples https://github.com/noelyahan/mergi/examples/mask
 func Mask(maskImg, original image.Image, maskColor color.RGBA) (image.Image, error) {

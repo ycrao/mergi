@@ -1,0 +1,6 @@
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
+github.com/noelyahan/impexp v0.0.0-20190507042629-ba8d234c5451 h1:1kxxwELbhZBLFe3T8kBQiaj3mionHbF4uDZIWi8mcAY=
+github.com/noelyahan/impexp v0.0.0-20190507042629-ba8d234c5451/go.mod h1:fWa2UcdwWpSHhuvND6NYyZlDyq3lQFimsp5AOHiLC20=
+github.com/noelyahan/mergitrans v0.0.0-20190507035323-73e76dcd7d2a h1:LFZ/NWBGkjgYuiQZKVRLaeHIeWAtVfiDwt5ZA00iyYM=
+github.com/noelyahan/mergitrans v0.0.0-20190507035323-73e76dcd7d2a/go.mod h1:WOm5FMU6+FUczuxKgJiagn9T5lcrHd/IAunhd2u+dEw=
